@@ -95,10 +95,4 @@ footer {
 .btn:hover {
   background-color: #1a252f;       /* couleur plus foncée au survol */
 }
-.btn {
-  background-color: #e74c3c;
-  color: #fff;
-}
-.btn:hover {
-  background-color: #c0392b;
-}
+
