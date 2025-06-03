@@ -96,3 +96,8 @@ footer {
   background-color: #1a252f;       /* couleur plus foncée au survol */
 }
 
+/* Espace entre boutons au sein de .download-buttons */
+.download-buttons .btn {
+  margin: 0 5px; /* 5px à gauche et à droite de chaque bouton */
+}
+
