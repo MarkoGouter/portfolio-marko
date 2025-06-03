@@ -98,6 +98,6 @@ footer {
 
 /* Espace entre boutons au sein de .download-buttons */
 .download-buttons .btn {
-  margin: 0 5px; /* 5px à gauche et à droite de chaque bouton */
+  margin:  10px; /* 5px à gauche et à droite de chaque bouton */
 }
 
