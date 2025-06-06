@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7;
-  background: linear-gradient(to right, #f5f5f5, #eaeaea);
+  background: linear-gradient(to right, #fffaf0, #fef5e6);
   color: #333;
   scroll-behavior: smooth;
   transition: background-color 0.5s ease;
@@ -26,10 +26,10 @@ body {
 
 /* Barre de navigation */
 header {
-  background: linear-gradient(to right, #2c3e50, #34495e);
+  background: linear-gradient(to right, #ff6b6b, #ffb347);
   padding: 15px 0;
   margin-bottom: 30px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: background 0.3s ease;
 }
 nav ul {
@@ -41,7 +41,7 @@ nav ul li {
   margin: 0 15px;
 }
 nav ul li a {
-  color: #ecf0f1;
+  color: #fffaf0;
   text-decoration: none;
   font-weight: 600;
   position: relative;
@@ -54,7 +54,7 @@ nav ul li a::after {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #e74c3c;
+  background: #fff;
   transition: width 0.3s ease;
 }
 nav ul li a:hover::after,
@@ -63,7 +63,7 @@ nav ul li a.active::after {
 }
 nav ul li a:hover,
 nav ul li a.active {
-  color: #e74c3c;
+  color: #ffe8d6;
 }
 
 /* Titre des pages */
@@ -71,22 +71,22 @@ h1 {
   margin-bottom: 20px;
   font-size: 2.5rem;
   text-align: center;
-  color: #2c3e50;
+  color: #ff6b6b;
   animation: fadeIn 1s ease-in;
 }
 
 /* Section principale */
 main section {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 25px;
   border-radius: 10px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 main section:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
 }
 
 /* Styles pour les paragraphes et listes */
@@ -102,10 +102,10 @@ ul.skills-list {
 footer {
   text-align: center;
   font-size: 0.9rem;
-  color: #777;
+  color: #888;
   padding: 25px 0;
-  border-top: 1px solid #ddd;
-  background: #f0f0f0;
+  border-top: 1px solid #eee;
+  background: #fff9f3;
   margin-top: 40px;
 }
 
@@ -113,15 +113,15 @@ footer {
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(to right, #2c3e50, #3a5068);
-  color: #ecf0f1;
+  background: linear-gradient(to right, #ff6b6b, #ffb347);
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 25px;
   transition: background 0.4s ease, transform 0.3s ease;
 }
 .btn:hover {
-  background: linear-gradient(to right, #1a252f, #2d3c4d);
+  background: linear-gradient(to right, #ff8e8e, #ffc46b);
   transform: scale(1.05);
 }
 
